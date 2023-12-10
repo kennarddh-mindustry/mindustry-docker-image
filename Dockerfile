@@ -1,7 +1,7 @@
 FROM eclipse-temurin:17
 
 ARG minRAMPercentage=20
-ARG maxRAMPercentage=80
+ARG maxRAMPercentage=90
 
 WORKDIR /app
 

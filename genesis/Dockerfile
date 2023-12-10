@@ -1,4 +1,4 @@
-FROM kennarddh/mindustry-server-kotlin-runtime:1.1.1
+FROM kennarddh/mindustry-server-kotlin-runtime:1.1.2
 
 WORKDIR /app
 
