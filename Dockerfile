@@ -6,5 +6,4 @@ ADD https://github.com/Anuken/Mindustry/releases/download/v146/server-release.ja
 
 EXPOSE 6567
 
-# Set the entry point for your application
 ENTRYPOINT ["java", "-jar", "server-release.jar"]
