@@ -1,4 +1,4 @@
-FROM kennarddh/mindustry-server:latest
+FROM kennarddh/mindustry-server:1.1.1
 
 WORKDIR /app
 
