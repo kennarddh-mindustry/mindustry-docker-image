@@ -9,4 +9,4 @@ ADD https://github.com/Anuken/Mindustry/releases/download/v146/server-release.ja
 
 EXPOSE 6567
 
-ENTRYPOINT ["java", "-XX:MinRAMPercentage=$minRAMPercentage", "-XX:MaxRAMPercentage=$maxRAMPercentage", "-jar", "server-release.jar"]
+ENTRYPOINT java -XX:MinRAMPercentage=$minRAMPercentage -XX:MaxRAMPercentage=$maxRAMPercentage -jar server-release.jar
